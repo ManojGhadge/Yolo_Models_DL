@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [17, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+
+nc: 2
+names: ['0', '17']
+
+roboflow:
+  workspace: custom-wyfc3
+  project: human-pose-3vmzj
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/custom-wyfc3/human-pose-3vmzj/dataset/12
