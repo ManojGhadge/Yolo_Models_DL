@@ -128,24 +128,15 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Machine Learning / Data Science
-# Model weights and checkpoints
-*.pt
-*.pth
-*.h5
-*.pb
-*.onnx
-*.tflite
-*.pkl
-*.joblib
+
 
 # Datasets (uncomment if you want to ignore large datasets)
 # dataset/
 # data/
 
 # Logs and runs
-runs/
-test_results/
+# runs/
+# test_results/
 logs/
 *.log
 
